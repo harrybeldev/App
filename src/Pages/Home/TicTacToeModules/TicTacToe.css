@@ -32,6 +32,7 @@
  align-items: center;
 }
 
+
 .circle{
   height: 180px;
   width: 180px;
@@ -65,6 +66,15 @@
   height: 30%;
   margin-top: -15%;
   width: 100%;
+}
+.heading{
+  background-color: skyblue;
+  color: white;
+  font-size: 5rem;
+  border-radius: 20px;
+  padding: 0 20px;
+  box-shadow: 0 5px 6px rgba(58, 73, 80, 0.685);
+  margin: 2rem;
 }
 .info{
   background-color: skyblue;
@@ -103,4 +113,8 @@
 .square:hover{
   cursor: pointer;
 }
-
+.cell-item{
+  font-size: 15rem;
+  font-weight: bolder;
+  color: steelblue;
+}
