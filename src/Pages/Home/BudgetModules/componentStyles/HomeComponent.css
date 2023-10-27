@@ -1,0 +1,12 @@
+.homecomponent--container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0 10px;
+  width: 80%;
+  justify-content: center;
+  background: steelblue;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 5.333px 20px 0 rgba(0, 0, 0, 0.4);
+}

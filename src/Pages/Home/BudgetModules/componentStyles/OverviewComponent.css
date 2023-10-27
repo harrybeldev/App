@@ -1,0 +1,56 @@
+.overviewcomponent--container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+}
+
+.balance--box{
+  font-size: 25px;
+  width: 100%;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.add-transaction-btn{
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px ;
+}
+.transaction--container{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin: 20px;
+}
+.transaction{ 
+  display: flex;
+  flex-direction: column;
+  border: 1px solid azure;
+  padding: 15px 20px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+}
+.income{
+  font-weight: bolder;
+  font-size: 20px;
+  color: darkgreen;
+}
+.expense{
+  font-weight: bolder;
+  font-size: 20px;
+  color: red;
+}

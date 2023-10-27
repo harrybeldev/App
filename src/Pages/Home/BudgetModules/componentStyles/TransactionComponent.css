@@ -1,0 +1,19 @@
+ .transaction--component--container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+  padding: 10px 22px;
+  font-size: 18px;
+  width: 50%;
+  gap: 10px;
+  font-weight: bold;
+}
+.transaction--component--container > input {
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #e6e8e9;
+  border: 1px solid black;
+  outline: none;
+  width: 50%;
+}

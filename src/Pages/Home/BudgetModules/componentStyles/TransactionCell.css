@@ -1,0 +1,32 @@
+.transaction--cell{
+  display: flex;
+  flex-direction: row;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  align-items: center;
+  font-weight: normal;
+  width: 100%;
+  background: skyblue;
+  justify-content: space-between;
+  border-right: 4px solid black;
+  border-radius: 10px;
+  border: 1px solid #e6e8e9;
+}
+
+.cell{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.cell > p{
+  font-size: 17px;
+  font-weight: 900;
+}
+.cell > span {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #e6e8e9;
+}
