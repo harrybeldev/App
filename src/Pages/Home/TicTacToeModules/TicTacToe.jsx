@@ -25,6 +25,7 @@ const TicTacToe = () => {
   
   return (
     <div className="tictactoe--container" id="tic-tac-toe">
+      <h1 className="heading">Tic Tac Toe</h1>
       <div className="gameboard"> 
        {cells?.map((cell,index) => <Cell key={index} id={index} cell={cell} setCells={setCells} turn={turn} setTurn={setTurn} cells={cells} winningMessage={winningMessage} setWinningMessage={setWinningMessage} /> )}
       </div>
